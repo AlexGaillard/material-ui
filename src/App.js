@@ -4,11 +4,10 @@ import { Button, Grid, Box, Container } from '@mui/material';
 
 function App() {
   return (
-    <Container fixed>
-      <Box className="header" component="header" sx={{
-        backgroundColor: 'red',
-        borderRadius: '10px'
+    <Box className="header" component="header" sx={{
+      backgroundColor: 'red'
       }}>
+      <Container fixed>
         <Grid container alignItems="center" sx={{height: 75}}>
           <Grid container justifyContent="center" item xs>
             <Button variant="contained">test</Button>
@@ -20,8 +19,8 @@ function App() {
             <Button variant="contained">test</Button>
           </Grid>
         </Grid>
-      </Box>
-    </Container>
+      </Container>
+    </Box>
   );
 }
 
